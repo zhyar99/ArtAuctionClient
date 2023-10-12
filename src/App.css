@@ -1,0 +1,138 @@
+.logo-image
+{
+  height: 80px !important;
+}
+
+.p-fileupload .p-fileupload-buttonbar .p-button
+{
+  color: rgb(77, 77, 77);
+}
+.p-menubar .p-menubar-root-list{
+  position: absolute;
+  right: 30px;
+}
+
+.p-menubar .p-menubar-button
+{
+  position: absolute;
+  right: 30px;
+}
+.art-image
+{
+}
+.art-image img
+{
+  height: 600px;
+  max-width: 400px;
+  object-fit: cover;
+}
+.art-details-container
+{
+  padding: 30px 5px;
+}
+.art-details-container h1
+{
+  font-size: 2rem;
+}
+.art-details-container p
+{
+  font-size: 1rem;
+  margin-top: 20px;
+  color: grey;
+  font-weight: 300;
+}
+.art-details-container ul{
+  margin-top: 30px;
+}
+.art-details-container ul li {
+  color: rgb(79, 86, 223);
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.art-auction-btns
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.art-auction-btns button
+{
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.art-auction-btns-link 
+{
+  margin-top: 70px;
+  color: grey;
+  text-align: center;
+  display: flex;
+  justify-content: space-between ;
+  flex-direction: column;
+
+}
+.art-auction-btns-link button
+{
+  margin-top: 5px;
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  color: grey;
+}
+.art-auction-btns input
+{
+  text-align: center;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.art-timer
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+.main-container
+{
+  position: relative;
+}
+.art-timer-info
+{
+  background-color: rgb(0, 171, 0);
+  height: 70px;
+  width: 150px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.myClass a
+{
+  color: #180092;
+  font-size: 15px;
+}
+
+.myClass a i
+{
+  color: #6567e1 !important;
+  font-size: 18px;
+  margin-right: 5px;
+}
+.artist-info img
+{
+  height: 70px;
+  width: 70px;
+  object-fit: cover; 
+  border-radius: 100px;
+}
+
+.artist-info h2
+{
+  margin-top: 20px;
+  margin-left: 20px;
+}
