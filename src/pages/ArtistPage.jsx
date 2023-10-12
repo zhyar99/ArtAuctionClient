@@ -44,7 +44,7 @@ function ArtistPage() {
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl">
                 <div className="md:flex">
                     <div className="md:shrink-0">
-                        <img className="h-60 w-full object-cover md:h-full md:w-60" src={`http://localhost:3000/${artist.user_id.profile_image}`} alt="Modern building architecture" />
+                        <img className="h-60 w-full object-cover md:h-full md:w-60" src={`https://art-auction-api.onrender.com/${artist.user_id.profile_image}`} alt="Modern building architecture" />
                     </div>
                     <div className="p-8">
                         <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">

@@ -18,7 +18,7 @@ import MyAuction from './pages/MyAuction';
 
 function App() {
 
-  axios.defaults.baseURL = "http://localhost:3000";
+  axios.defaults.baseURL = "https://art-auction-api.onrender.com/";
   axios.defaults.withCredentials = true;
 
   return (

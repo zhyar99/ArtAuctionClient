@@ -205,7 +205,7 @@ function ArtPage() {
         <div className="main-container max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl">
                 <div className="md:flex">
                     <div className="md:shrink-0">
-                        <img className="h-96 w-full object-cover md:h-full md:w-96" src={`http://localhost:3000/${artwork.artwork_image}`} alt="Modern building architecture" />
+                        <img className="h-96 w-full object-cover md:h-full md:w-96" src={`https://art-auction-api.onrender.com/${artwork.artwork_image}`} alt="Modern building architecture" />
                     </div>
                     <div className="p-8 w-full">
                         <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
@@ -215,7 +215,7 @@ function ArtPage() {
                         <br /><br />
                         <div className='artist-info flex' style={{margin: '5px 20px'}}>
                             <a className='flex' href={`/artist/${artist._id}`}>
-                                <img src={`http://localhost:3000/${artist.user_id.profile_image}`} alt="" />
+                                <img src={`https://art-auction-api.onrender.com/${artist.user_id.profile_image}`} alt="" />
                                 <h2>{artist.user_id.username}</h2>
                             </a>
                         </div>

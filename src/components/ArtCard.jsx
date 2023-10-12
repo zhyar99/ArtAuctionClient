@@ -111,7 +111,7 @@ function ArtCard({ artwork_id, artist_image, artist_name, artist_id, title, desc
 
                 <div className="card-header">
 
-                    <img src={`http://localhost:3000/${artwork_image}`} alt="" />
+                    <img src={`https://art-auction-api.onrender.com/${artwork_image}`} alt="" />
                 </div>
                 <a href={`/art/${artwork_id}`}>
       
